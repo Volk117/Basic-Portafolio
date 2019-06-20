@@ -5,7 +5,7 @@ body {
 	background-image: url("../images/bg.png");
 	background-color: #cccccc;
 	padding: 20px;
-	font-family: Arial;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 /* Center website */
 
@@ -40,10 +40,7 @@ h1 {
 }
 /* Content */
 
-.content {
-	background-color: white;
-	padding: 10px;
-}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 
 @media screen and (max-width: 900px) {
@@ -128,6 +125,7 @@ input[type=submit]:hover {
 	background-color: #333;
 	overflow: hidden;
 	top: 0;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 /* Style the links inside the navigation bar */
 
@@ -138,6 +136,7 @@ input[type=submit]:hover {
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 17px;
+	
 }
 /* Change the color of links on hover */
 
@@ -173,15 +172,7 @@ footer p {
 hr {
 	width: 50%;
 }
-h3 {
-	position: absolute;
-	color: white;
-	background-color: rgb(230, 9, 9);
-	text-align: center;
-	padding-top: 22px;
-	padding-bottom: 22px;
-	background-size: 100px;
-}
+
 img {
 	position: relative;
 	float: left;
@@ -196,11 +187,48 @@ img {
 .text-block {
 	position: absolute;
 	bottom: 150px;
-	right: 300px;
+	
 	font-size: 35px;
 	background-color: rgb(230, 9, 9);
 	color: black;
 }
 h1 {
 	color: rgb(230, 9, 9);
+}
+
+h3{
+	position: absolute;
+	color: white;
+	background-color: rgb(230, 9, 9);
+	text-align: center;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	background-size: 100px;
+	
+	
+}
+
+.mobile{
+	padding-left: 166px;
+	padding-right: 166px;
+}
+
+.tablet{
+	padding-left: 172px;
+	padding-right: 172px;
+}
+
+.audio{
+	padding-left: 173px;
+	padding-right: 173px;
+}
+
+.pc{
+	padding-left: 203px;
+	padding-right: 203px;
+}
+
+.console{
+	padding-left: 150px;
+	padding-right: 150px;
 }
